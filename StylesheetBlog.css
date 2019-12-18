@@ -1,0 +1,631 @@
+.Ueberschrift {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 30px;
+    font-family: "oldiescartoon";
+    letter-spacing: 5px;
+}
+
+a {
+    color: #ffc300;
+}
+
+a:hover {
+    color: #ffc300;
+}
+
+
+.links {
+    background-image: bg1.png;
+
+}
+
+.Einleitung {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "primerprint";
+    font-size: 20px;
+    border: solid 1px #456800;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.Einleitung2 {
+    font-family: "primerprint";
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.Innen {
+    margin: auto;
+    text-align: center;
+    width: 1300px;
+    height: 4608px;
+    border: #121212 solid 2px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.parallax {
+    background:url(bg8.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:4608px;
+    background-color:black;
+    background-position: 0px 0px;
+}
+
+body {
+    background:url(bg7.jpg);
+    background-position: 500px 0px;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+}
+
+
+.myButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+    background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+    background-color:#ffec64;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Courier New;
+    font-size:20px;
+    font-weight:bold;
+    padding:17px 23px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+    background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+    background-color:#ffab23;
+    color: black;
+
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.myHeader {
+
+}
+
+.myHeader:hover {
+
+}
+
+@font-face { font-family: "oldiescartoon";
+    src: url('oldiescartoon.ttf') format('truetype');
+    url:('oldiescartoon.ttf') format('truetype');
+}
+
+@font-face { font-family: "primerprint";
+    src: url('primerprint.ttf') format('truetype');
+    url:('primerprint.ttf') format('truetype');
+}
+
+.flex-container-text {
+    padding-top: 150px;
+}
+
+.email {
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color:rgba(255, 234, 0, 0.75);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    width: 500px;
+    font-family: primerprint;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+
+.text {
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color:rgba(255, 234, 0, 0.75);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    width: 496px;
+    font-family: primerprint;
+    height: 60px;
+    border-radius: 7px;
+
+}
+
+.progress {
+    height: 8px;
+    margin-top: 8px;
+}
+
+.h1, h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.myHeaderClass:hover {
+
+    text-decoration: none;
+}
+
+
+
+
+.submit {
+    padding-bottom:10px;
+    padding-top:10px;
+    background-color:rgba(255, 234, 0, 0.75);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    width: 500px;
+    font-family: primerprint;
+    margin-bottom: 10px;
+    color: #121212;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background: #3e7400
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: yellowgreen;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #88ba1c;
+}
+
+
+::-webkit-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+}
+
+.form-control is-invalid
+
+
+
+.field {
+    text-align: center;
+}
+
+.fieldText {
+    text-align: center;
+    width: 500px;
+    /* height: 120px; */
+    border-radius: 3px;
+
+}
+
+
+
+.text.form-control {
+    width: 500px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+.email.form-control {
+    height: 41px;
+    width: 500px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+textarea#text.form-control.is-invalid, .was-validated .form-control:invalid {
+    height: 100px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+textarea#text.form-control.is-valid, .was-validated .form-control:valid {
+    height: 100px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+input#thema.form-control.is-invalid, .was-validated .form-control:invalid {
+    height: 41px;
+    width: 500px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+input#thema.form-control.is-valid, .was-validated .form-control:valid {
+    height: 41px;
+    width: 500px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+input#name.form-control.is-invalid, .was-validated .form-control:invalid {
+    height: 41px;
+    width: 500px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+input#name.form-control.is-valid, .was-validated .form-control:valid {
+    height: 41px;
+    width: 500px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    background-color: rgba(255, 234, 0, 0.75);
+    height: 41px;
+    width: 500px;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    background-color: rgba(255, 234, 0, 0.75);
+    height: 41px;
+    width: 500px;
+}
+
+textarea.form-control.is-invalid, .was-validated .form-control:invalid {
+    height: 100px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+textarea.form-control.is-valid, .was-validated .form-control:valid {
+    height: 100px;
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+textarea {
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.form-control {
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+.form-control:focus {
+    background-color: rgba(255, 234, 0, 0.75);
+}
+
+.submit:hover {
+    background-color:rgba(96, 125, 0, 0.75);
+    cursor: pointer;
+}
+
+.Beitrag {
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    z-index: 5;
+    width: 700px;
+}
+
+fieldset {
+    border: #000000 2px solid;
+    border-radius: 5px;
+    font-family: primerprint;
+    font-size: 17px;
+    margin-top: 50px;
+    position: relative;
+    background-color:rgba(150, 196, 0, 0.80);
+}
+
+.antwort {
+    border: #000000 2px solid;
+    border-radius: 5px;
+    font-family: primerprint;
+    font-size: 17px;
+    margin-top: 12px;
+    position: relative;
+    background-color:rgba(150, 196, 0, 0.80);
+}
+
+.test {
+    width: 40px;
+    width: 100px;
+    height: 100px;
+    background-image: "error.png";
+}
+
+a {
+    text-decoration: none
+}
+
+.newFlex {
+    display: flex;
+}
+
+.errorFlex {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 160px;
+    margin-top: 20px;
+}
+
+.allFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.antwortErrorFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.antwortAllFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorThema {
+    margin-top: 22px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:url('error.png');
+    margin-bottom: 13px;
+
+}
+
+.errorThema1 {
+    margin-top: 42px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.errorName {
+    margin-top: 23px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:url('error.png');
+}
+
+.errorName1 {
+    margin-top: 23px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.errorText {
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:url('error.png');
+}
+
+.errorText1 {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.content {
+    height: 50px;
+    width: 200px;
+    background-color:rgba(255, 0, 0, 0.80);
+    border: 1px black solid;
+    border-radius: 4px;
+    display: none;
+    z-index: 1;
+    font-family: primerprint;
+    font-size: 19px;
+}
+
+.dropdown:hover .content {
+    display: block;
+    z-index: 11;
+}
+
+legend {
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: primerprint;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #7aa300;
+    max-width: max-content;
+    margin-left: 15px;
+}
+
+.legend2 {
+     position: absolute;
+     top: 95%;
+     right: 20px;
+     line-height:25px;
+     border: 1px black solid;
+     border-radius: 5px;
+     background-color: #7aa300;
+     padding-right: 5px;
+     padding-left: 5px;
+     z-index: 10;
+     font-family: primerprint;
+ }
+
+.legend3 {
+    position: absolute;
+    top: 95%;
+    right: 150px;
+    line-height:25px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #7aa300;
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 9;
+    font-family: primerprint;
+    width: 500px;
+    z-index: 9;
+}
+
+.legend4 {
+    position: absolute;
+    top: 0%;
+    left: 615px;
+    line-height:25px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #7aa300;
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 9;
+    font-family: primerprint;
+    /* width: 55px; */
+    z-index: 5;
+}
+
+.legendAntwortEdit {
+    position: absolute;
+    top: 0%;
+    left: 405px;
+    line-height:25px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #7aa300;
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 9;
+    font-family: primerprint;
+    /* width: 45px; */
+    color:green;
+    z-index: 5;
+}
+
+.legendBeitragEdit {
+    position: absolute;
+    top: 0%;
+    left: 545px;
+    line-height:25px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #7aa300;
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 9;
+    font-family: primerprint;
+    /* width: 45px; */
+    color:green;
+    z-index: 5;
+}
+
+.loeschen:hover {
+    color: #ff0000;
+}
+
+
+.scroll {
+    overflow: scroll;
+    height: 160px;
+}
+
+.BeitragThema {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 27px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    margin-left: 16px;
+}
+
+.BeitragText {
+    font-size: 19px;
+    margin-bottom: 25px;
+    margin-left: 17px;
+    word-wrap: break-word;
+    width: 668px;
+}
+
+.BeitragEdit {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.EditButton {
+
+}
+
+.AntwortText {
+    font-size: 19px;
+    margin-bottom: 5px;
+    width: 450px;
+    overflow-wrap: break-word;
+    margin-left: 10px;
+}
+
+footer {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    top: 2900px;
+    width: 100%;
+}
+
+.BeitragErstellen {
+    background-color:rgba(150, 196, 0, 0.80);
+    width: 550px;
+    height: 300px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
